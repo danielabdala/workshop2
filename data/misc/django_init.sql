@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS nctutorials;
-CREATE DATABASE nctutorials;
+DROP DATABASE IF EXISTS postgres;
+CREATE DATABASE postgres;
 
-\c nctutorials
+\c postgres
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
